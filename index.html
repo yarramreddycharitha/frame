@@ -1,0 +1,60 @@
+Frame.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frameset Example</title>
+</head>
+<frameset rows="33%, 33%, 34%" border="1">
+    <frame src="image.html" name="imageFrame">
+    <frame src="paragraph.html" name="paragraphFrame">
+    <frame src="hyperlink.html" name="linkFrame">
+    <noframes>
+        <body>
+            <p>Your browser does not support frames. Please upgrade your browser.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>
+
+Image.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Frame</title>
+</head>
+<body>
+    <h2>Image Frame</h2>
+    <img src="example.jpg" alt="Example Image" width="300" height="200">
+</body>
+</html>
+
+Paragraph.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Paragraph Frame</title>
+</head>
+<body>
+    <h2>Paragraph Frame</h2>
+    <p>This is an example paragraph explaining the concept of HTML frames. Frames allow a web page to be divided into multiple sections, each capable of displaying a different HTML document.</p>
+</body>
+</html>
+
+Hyperlink.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hyperlink Frame</title>
+</head>
+<body>
+    <h2>Hyperlink Frame</h2>
+    <p>Click the link below to visit Google:</p>
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+</body>
+</html>
